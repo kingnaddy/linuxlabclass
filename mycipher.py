@@ -22,3 +22,5 @@ blocks = []
 for i in range(0,n,5):
     blocks.append(message[i:i+5])
 
+for i in range(0,len(blocks),10):
+    print(' '.join(blocks[i:i+10], end = '\n')
