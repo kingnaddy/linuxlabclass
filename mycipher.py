@@ -16,3 +16,9 @@ for char in text:
         new_char = chr(shifted)
         message+= new_char
 
+n = len(message)
+
+blocks = []
+for i in range(0,n,5):
+    blocks.append(message[i:i+5])
+
